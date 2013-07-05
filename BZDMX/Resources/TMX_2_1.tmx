@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="85" height="20" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="Tile_source" tilewidth="24" tileheight="24">
+  <image source="Tile_source.png" width="800" height="480"/>
+ </tileset>
+ <tileset firstgid="661" name="Lady" tilewidth="24" tileheight="24">
+  <image source="Lady.png" width="48" height="48"/>
+ </tileset>
+ <layer name="BackgroundColor" width="85" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6HzUv8ep2I/SFg1VVVVVVVVfXp6x+ht
+  </data>
+ </layer>
+ <layer name="Platform" width="85" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0gsJACAQBNFLo1G0fyJN4I8BFebBsgUmR0Tqy4PXntpXJq89oz7t9Iyd8uyUZ6c8O+XZKc9OeXbKs1OenfLslGenPDvl2SlvpdPb/5uVTm//b17o0E7tdKYBQWtCNw==
+  </data>
+ </layer>
+ <layer name="PlatformDynamic" width="85" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1bsNgDAMRdFUEAZFrAKjhCnxBIgUFr9zpNu5eJ1L6TcnBQA8xxptF+6GaIxqNKUuer8W7XePAPig3l/kdwF/tyQFAGcOv2YURw==
+  </data>
+ </layer>
+ <layer name="biqi" width="85" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0MkNACAQxLDR9v/lKBeqAITsCqIkAJzSKul1u+IvY/+cngIAAADA0xbNjAJj
+  </data>
+ </layer>
+ <layer name="HideBlock" width="85" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAADgZxqQAAE=
+  </data>
+ </layer>
+</map>

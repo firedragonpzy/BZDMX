@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="84" height="20" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="Tile_source" tilewidth="24" tileheight="24">
+  <image source="Tile_source.png" width="800" height="480"/>
+ </tileset>
+ <layer name="BackgroundColor" width="84" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6HzUv8e95kMSFg1VVVVVVVV/Qc8Z+Wx
+  </data>
+ </layer>
+ <layer name="Props" width="84" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0MsNglAUBuHLEgXtQxFoUkvRUlTQPsBXDUwFrkhugPmSWZ8/J4TxXOlGd2qopQc9R7yxJB319KI3fehLv5ijJixNQljRmjLKaUPbJPayadrxtz0VdKCSKqr9pyRJmqEjnWKPmJEzXWKPkCRJkvTXAAeQD+k=
+  </data>
+ </layer>
+ <objectgroup name="Die" width="84" height="20" visible="0"/>
+ <objectgroup name="Platform" width="84" height="20" visible="0">
+  <object x="1" y="384" width="454" height="95"/>
+  <object x="768" y="241" width="239" height="46"/>
+  <object x="818" y="98" width="140" height="45"/>
+  <object x="601" y="384" width="1800" height="95"/>
+  <object x="1152" y="241" width="93" height="145"/>
+  <object x="1488" y="241" width="94" height="148"/>
+ </objectgroup>
+ <layer name="Platform" width="84" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlckNwjAQRZ0WCLQApYTGQHBhaQIEF5ZKWCohUADvmIulxDEjY/0nPY18+PbIGmmcE0II8c8scIkznDfOIowDHnGH+8ZZCCGEsMC319vu+RWucYPbDu+G5lLHt9fb7vkTnvGC1w7vhuZy54Z3fODTIJc7L6zxjR+DXO4MCudKHOKo+H0ud1L7zwmOI1Ufse63qn36n2IVqfqIdb9V7dO/5lPzmfJ8fgH0VGv9
+  </data>
+ </layer>
+ <layer name="PlatformDynamic" width="84" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENACAMA8FMA6OE/SciZfrQcSe9vIAjAAAAAAD4xap2W2ayOm2Z8c+3Jv+862oDcQ==
+  </data>
+ </layer>
+ <layer name="Decoration" width="84" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzkENADAMxLAC3MofTo/FKs2W8k8VAAAAAPC7k27q1yMArDCWjwDo
+  </data>
+ </layer>
+</map>
